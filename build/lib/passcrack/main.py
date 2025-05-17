@@ -9,6 +9,7 @@ def run(givenPassword=None):
         password = input("Input your own password:")
         if password == "":
             print("Password can't be empty. Quitting process...")
+            return 0.0
     else:
         password = givenPassword
 
