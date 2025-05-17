@@ -8,7 +8,7 @@ def run(givenString=None):
     # Define the password to be cracked
     if givenString is None:
         word = input("Input partial solution:")
-        if word == "":
+        if word is None:
             print("You have not provided a word. Next time, provide a word. Quitting process...")
     else:
         word = givenString

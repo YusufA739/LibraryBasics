@@ -7,7 +7,7 @@ def run(givenPassword=None):
     # Define the password to search for cracked
     if givenPassword is None:
         password = input("Input your own password:")
-        if password == "":
+        if password is None:
             print("Password can't be empty. Quitting process...")
     else:
         password = givenPassword

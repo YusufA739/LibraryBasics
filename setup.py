@@ -1,7 +1,7 @@
 from setuptools import setup
 
 setup(name="LibraryBasics",
-      version="4.1",
+      version="4.4",
       packages=['printslow','passcrack','hangmansolver'],#called uGauss because it's a super small AND scalable version to ANY variable amount (e.g: 3 term elim, 4 term, 5 term, 150003 terms...)
       author="YusufA442",
       author_email="yusuf365820@gmail.com",
