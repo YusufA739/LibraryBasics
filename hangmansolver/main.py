@@ -10,6 +10,7 @@ def run(givenString=None):
         word = input("Input partial solution:")
         if word == "":
             print("You have not provided a word. Next time, provide a word. Quitting process...")
+            return 0.0
     else:
         word = givenString
 
