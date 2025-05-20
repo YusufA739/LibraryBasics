@@ -3,7 +3,6 @@ LibraryBasics.egg-info/PKG-INFO
 LibraryBasics.egg-info/SOURCES.txt
 LibraryBasics.egg-info/dependency_links.txt
 LibraryBasics.egg-info/top_level.txt
-PrintSlow/main.py
 hangmansolver/__init__.py
 hangmansolver/main.py
 passcrack/__init__.py
