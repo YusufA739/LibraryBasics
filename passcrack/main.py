@@ -40,7 +40,7 @@ def run(givenPassword=None):
                     time_taken = end_time - start_time
                     print("Time taken:", time_taken, "seconds")
                     # Terminate the password cracking process
-                    return (time_taken)#even better as it will stop and allow normal running after subroutine runs
+                    return time_taken#even better as it will stop and allow normal running after subroutine runs
 
         #increase min and max password lengths to lengths that haven't been iterated thru. Done when for loop stops, because password was not found
         min_value = max_length + 1
